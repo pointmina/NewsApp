@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navigation_home">
+
+    <!--    메뉴 아이디와 데스티네이션 아이디를 같게하면 연결된다-->
+    <fragment
+        android:id="@+id/navigation_latest_articles"
+        android:name="com.hanto.newsapp.LatestFragment"
+        android:label="@string/label_latest"
+        tools:layout="@layout/fragment_latest" />
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.hanto.newsapp.HomeFragment"
+        android:label="@string/label_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_bookmark"
+        android:name="com.hanto.newsapp.BookmarkFragment"
+        android:label="@string/label_saved"
+        tools:layout="@layout/fragment_bookmark" />
+
+
+</navigation>
