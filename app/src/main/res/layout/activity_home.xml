@@ -9,13 +9,13 @@
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar_home"
+        style="@style/App.Toolbar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/app_name"
-        app:titleCentered="true" />
+        app:title="@string/app_name" />
 
     <!--
     원래 name 자리에 첫번째로 나타날 fragment이름 넣어야 하는데 nav쓸거라 그거 넣어줌

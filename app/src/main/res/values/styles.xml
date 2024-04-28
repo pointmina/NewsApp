@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-</resources>
+
+    <style name="App.TextHeadline32" parent="TextAppearance.Material3.HeadlineLarge" />
+
+    <style name="App.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleCentered">true</item>
+        <item name="titleTextAppearance">@style/App.TextHeadline32</item>
+    </style>
+
+    <style name="App.TextHeadline24" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="App.TextBody16" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    </resources>

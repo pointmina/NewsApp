@@ -3,4 +3,5 @@
     <string name="label_latest">Latest</string>
     <string name="label_home">Home</string>
     <string name="label_saved">Saved</string>
+    <string name="description_article_representative_img">기사 대표 이미지</string>
 </resources>
