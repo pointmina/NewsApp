@@ -21,5 +21,6 @@ NewsApp - 뉴스앱(2) 탭별 기사목록 화면
 - put : 똑같이 리소스를 전달을 하는데, 기존에 제출했던 리소스를 수정하게 되면 post대신 put 메서드로 요청
 - delete : 특정 리소스 삭제
 - https://developer.android.com/develop/connectivity/network-ops/connecting?hl=ko
+- 
   
 4. 리사이클러 뷰 설정
