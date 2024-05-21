@@ -21,6 +21,13 @@ NewsApp - 뉴스앱(2) 탭별 기사목록 화면
 - put : 똑같이 리소스를 전달을 하는데, 기존에 제출했던 리소스를 수정하게 되면 post대신 put 메서드로 요청
 - delete : 특정 리소스 삭제
 - https://developer.android.com/develop/connectivity/network-ops/connecting?hl=ko
-- 
+
+2-1. Retrofit
+- https://square.github.io/retrofit/
+- https://square.github.io/okhttp/
+- okhttp 로그에서 상세한 내용 확인 가능
+- 코틀린 코루틴으로 네트워크 통신을 요청할 때는 return 타입을 받아보고 싶은 타입으로 하고 이 함수를 suspender 함수로 선언을 해야지만 retrofit과 결합을 해서 코루틴으로 비동기적인 요청을 수행할 수 있따.
+- 어댑터 객체를 미리 만들고 추후에 어댑터 객체를 생성하고 리사이클 어댑터를 초기화 할거냐?!
+- 아니면 데이터가 도착해야만 어댑터를 생성하게 할거냐?!
   
 4. 리사이클러 뷰 설정
