@@ -28,7 +28,7 @@ NewsApp - 뉴스앱(2) 탭별 기사목록 화면
 - okhttp 로그에서 상세한 내용 확인 가능
 - 코틀린 코루틴으로 네트워크 통신을 요청할 때는 return 타입을 받아보고 싶은 타입으로 하고 이 함수를 suspender 함수로 선언을 해야지만 retrofit과 결합을 해서 코루틴으로 비동기적인 요청을 수행할 수 있따.
 - api키 노출: authoriztion or x-api key
-- local.properties
+- local.properties -> 원격저장소에 푸시가 되지 않기 때문에 로컬프로퍼티즈에 값을 등록하고 빌드컴프그를 하면 노출을 방지할 수 있
 
 
 2-2. glide
@@ -46,8 +46,5 @@ NewsApp - 뉴스앱(2) 탭별 기사목록 화면
 어댑터에 새로운 값을 전달했는데 업데이트가 안된다.
 => notifyDataSetChanged()
 
-
-
-
-
-4. 리사이클러 뷰 설정
+3. 최근 화면 구성
+- 바둑판 형식의 레이아 -> Grid
