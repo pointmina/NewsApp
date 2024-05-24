@@ -47,4 +47,22 @@ NewsApp - 뉴스앱(2) 탭별 기사목록 화면
 => notifyDataSetChanged()
 
 3. 최근 화면 구성
-- 바둑판 형식의 레이아 -> Grid
+- 바둑판 형식의 레이아웃 -> Grid
+- layoutmanager = grid
+- spanCount사용
+- app:layout_constraintDimensionRatio="w,1:1" 가로세로 크기 1대1비
+- 같은 api에서 값을 받아오는것은 맞는데 카테고리 정보는 전달하지 않을 것 = > 필수 타입을 바꾼다.
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
