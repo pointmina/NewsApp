@@ -8,19 +8,39 @@
     <!--    메뉴 아이디와 데스티네이션 아이디를 같게하면 연결된다-->
     <fragment
         android:id="@+id/navigation_latest_articles"
-        android:name="com.hanto.newsapp.LatestFragment"
+        android:name="com.hanto.newsapp.ui.LatestFragment"
         android:label="@string/label_latest"
-        tools:layout="@layout/fragment_latest" />
+        tools:layout="@layout/fragment_latest">
+        <action
+            android:id="@+id/action_latest_articles_to_articleDetailActivity"
+            app:destination="@id/articleDetailActivity" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.hanto.newsapp.HomeFragment"
+        android:name="com.hanto.newsapp.ui.HomeFragment"
         android:label="@string/label_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_articleDetailActivity"
+            app:destination="@id/articleDetailActivity" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_bookmark"
-        android:name="com.hanto.newsapp.BookmarkFragment"
+        android:name="com.hanto.newsapp.ui.BookmarkFragment"
         android:label="@string/label_saved"
         tools:layout="@layout/fragment_bookmark" />
+    <activity
+        android:id="@+id/articleDetailActivity"
+        android:name="com.hanto.newsapp.ui.ArticleDetailActivity"
+        android:label="activity_article_detail"
+        tools:layout="@layout/activity_article_detail">
+        <argument
+            android:name="category"
+            app:argType="com.hanto.newsapp.data.Category" />
+        <argument
+            android:name="article"
+            app:argType="com.hanto.newsapp.data.Article" />
+    </activity>
 
 
 </navigation>

@@ -8,12 +8,38 @@
         <item name="titleTextAppearance">@style/App.TextHeadline32</item>
     </style>
 
+    <style name="App.Toolbar.Navigation">
+        <item name="navigationIcon">@drawable/ic_arrow_back</item>
+    </style>
+
     <style name="App.TextHeadline24" parent="TextAppearance.Material3.HeadlineSmall">
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="App.TextHeadline16" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="App.TextBody16" parent="TextAppearance.Material3.BodyLarge">
         <item name="android:textStyle">bold</item>
     </style>
 
-    </resources>
+    <style name="App.TextTitle18" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="App.TextTitle16" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppRoundedImg">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="App.TextBody12" parent="TextAppearance.Material3.BodySmall">
+
+    </style>
+
+</resources>
