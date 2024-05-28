@@ -57,7 +57,7 @@ NewsApp - 뉴스앱(2) 탭별 기사목록 화면
 - category 맨 첫글자 대문자로
 - date parsing
 - 확장함수? object?
-- landscape 대응
+- landscape 대응 -> NEstedScrollView
 
 
 
