@@ -63,6 +63,9 @@ NewsApp - 뉴스앱(2) 탭별 기사목록 화면
 - Room : https://developer.android.com/training/data-storage/room?hl=ko
 - 북마크를 누르면 데이터 베이스에 추가가 되고 한번더 북마크를 누르면 삭제된다.
 - save화면으로 들어갔을때 저장된 기사들이 보여야한다.
+- 데이터베이스 테이블로 선언을 하려면 Entitiy Annotation을 추가해야 한다. (tableName =)으로 이름 변경 가능
+- 컬럼이름 변경하고 싶으면 @ColumnInfo(name ="")
+- pk키 뭐해야할지 모르겠으면 autoGenertat = true
 
 
 
