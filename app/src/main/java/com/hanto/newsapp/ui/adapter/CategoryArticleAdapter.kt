@@ -1,4 +1,4 @@
-package com.hanto.newsapp.ui
+package com.hanto.newsapp.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.hanto.newsapp.data.Article
 import com.hanto.newsapp.data.Category
 import com.hanto.newsapp.databinding.ItemCategoryArticleBinding
+import com.hanto.newsapp.ui.ArticleClickListener
 import com.hanto.newsapp.ui.extensions.load
 import com.hanto.newsapp.util.DateFormatText
 

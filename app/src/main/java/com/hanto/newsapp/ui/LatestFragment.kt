@@ -1,8 +1,7 @@
 package com.hanto.newsapp.ui
 
-import LatestArticleAdapter
+import com.hanto.newsapp.ui.adapter.LatestArticleAdapter
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +12,6 @@ import com.hanto.newsapp.data.Article
 import com.hanto.newsapp.data.Category
 import com.hanto.newsapp.data.NewsService
 import com.hanto.newsapp.databinding.FragmentLatestBinding
-import com.hanto.newsapp.util.Constants
 import kotlinx.coroutines.launch
 
 class LatestFragment : Fragment(), ArticleClickListener {

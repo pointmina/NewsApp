@@ -12,10 +12,10 @@ import com.hanto.newsapp.data.Article
 import com.hanto.newsapp.data.Category
 import com.hanto.newsapp.data.NewsService
 import com.hanto.newsapp.databinding.FragmentCategoryArticleListBinding
+import com.hanto.newsapp.ui.adapter.CategoryArticleAdapter
 import com.hanto.newsapp.util.Constants
 import com.hanto.newsapp.util.Constants.KEY_CATEGORY
 import kotlinx.coroutines.launch
-import java.util.Locale
 
 class CategoryArticleListFragment : Fragment(), ArticleClickListener {
 
