@@ -61,6 +61,8 @@ NewsApp - 뉴스앱(2) 탭별 기사목록 화면
 
 5. 북마크 기능 추가
 - Room : https://developer.android.com/training/data-storage/room?hl=ko
+- 북마크를 누르면 데이터 베이스에 추가가 되고 한번더 북마크를 누르면 삭제된다.
+- save화면으로 들어갔을때 저장된 기사들이 보여야한다.
 
 
 
